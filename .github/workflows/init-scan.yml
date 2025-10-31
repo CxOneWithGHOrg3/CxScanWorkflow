@@ -1,0 +1,8 @@
+# Dummy Code Scanning Init Workflow
+name: Init Code Scanning
+on: [push]
+jobs:
+  dummy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Code scanning initialized'
